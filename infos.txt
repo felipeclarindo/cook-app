@@ -1,0 +1,9 @@
+Como concertar o bug do final do video:
+
+1- Abra o Supabase nas tabelas.
+2- Vá para a tabela "recipes_ingredients".
+3- Localize as colunas "recipe_id" e "ingredient_id" ao lado do "Id".
+4- Clique em "Editar coluna" para ambas as colunas.
+5- No menu de edição, vá para "Foreign Keys".
+6- Crie uma nova chave estrangeira para cada uma, relacionando "recipe_id" com "id" na tabela "recipes" e "ingredient_id" com "id" na tabela "ingredients".
+7- Salve as alterações.
